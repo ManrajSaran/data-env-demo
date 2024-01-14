@@ -64,6 +64,6 @@ use the Pinot Controller UI or the Swagger API.
 Flink applications should be packaged into jar files and reference the Kafka brokers using localhost and thier 
 specified ports. The Flink job can then be submitted as a jar file in the Flink user interface.
 
-The provided example flink-app (and jar file) will require a Kafka topic to be created, named 'test-topic', and
+The provided example flink-app will require a Kafka topic to be created, named 'test-topic', and
 a Pinot table, named 'test', with a single string field. The 'produce.sh' script can be used to produce simple string data to the
 topic.
